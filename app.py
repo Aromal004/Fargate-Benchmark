@@ -1,5 +1,7 @@
 from flask import Flask, render_template
 import time
+from PIL import Image
+import os
 
 app = Flask(__name__)
 
