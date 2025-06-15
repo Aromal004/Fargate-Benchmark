@@ -9,7 +9,7 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /app
 
 # Install dependencies
-COPY requirements.txt .
+COPY requirements.txt image.jpg ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy app files

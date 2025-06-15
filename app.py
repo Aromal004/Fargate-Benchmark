@@ -1,7 +1,12 @@
 from flask import Flask, render_template
 import time
+from PIL import Image
+import os
 
 app = Flask(__name__)
+
+INPUT_PATH = "image.jpg"
+OUTPUT_PATH = "output.jpg"
 
 @app.route('/')
 def home():
@@ -21,6 +26,21 @@ def cpu_task():
     result = fib(30)
     duration = round(time.time() - start, 4)
     return render_template('cpu.html', result=result, duration=duration)
+
+
+@app.route("/convert", methods=["GET"])
+def convert_image():
+    if not os.path.exists(INPUT_PATH):
+        return {"error": "image.jpg not found"}, 404
+
+    if os.path.exists(OUTPUT_PATH):
+        os.remove(OUTPUT_PATH)
+
+    image = Image.open(INPUT_PATH).convert("L")
+    image.save(OUTPUT_PATH)
+
+    from flask import jsonify
+    return jsonify({"message": "Image converted to grayscale and saved as output.jpg"}), 200
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
