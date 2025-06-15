@@ -39,7 +39,8 @@ def convert_image():
     image = Image.open(INPUT_PATH).convert("L")
     image.save(OUTPUT_PATH)
 
-    return send_file(OUTPUT_PATH, mimetype="image/jpeg")
+    from flask import jsonify
+    return jsonify({"message": "Image converted to grayscale and saved as output.jpg"}), 200
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
