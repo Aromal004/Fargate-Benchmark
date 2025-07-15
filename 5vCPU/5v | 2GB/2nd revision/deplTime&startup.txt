@@ -1,0 +1,3 @@
+Deployment duration
+2 minutes, 2 seconds
+{"startup_time":0.0011119843}

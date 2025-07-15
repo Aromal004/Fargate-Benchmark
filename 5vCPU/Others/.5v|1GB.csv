@@ -1,0 +1,11 @@
+Phase,Cycle/Round,Endpoint,Concurrency,Requests,Failures,Time Taken (s),Req/sec,Time/Req (ms),Transfer Rate (KB/s),Median Time (ms),Max Time (ms)
+First,Cycle 1,/fib,1,1,0,0.976,1.02,975.640,1.99,976,976
+First,Cycle 1,/convert,1,1,0,0.667,1.50,666.782,3.10,667,667
+First,Cycle 2,/fib,1,1,0,0.910,1.10,909.568,2.14,910,910
+First,Cycle 2,/convert,1,1,0,0.706,1.42,705.748,2.93,706,706
+First,Cycle 3,/fib,1,1,0,0.924,1.08,923.793,2.11,924,924
+First,Cycle 3,/convert,1,1,0,0.811,1.23,810.990,2.55,811,811
+Second,Round 1,/fib,10,100,6,35.774,2.80,3577.423,5.44,3481,3947
+Second,Round 1,/convert,10,100,23,19.216,5.20,1921.572,10.74,1711,2658
+Second,Round 2,/fib,10,100,9,35.455,2.82,3545.526,5.49,3420,4030
+Second,Round 2,/convert,10,100,87,18.587,5.38,1858.739,11.11,1726,2289

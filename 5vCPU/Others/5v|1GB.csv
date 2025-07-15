@@ -1,0 +1,6 @@
+Phase,Cycle/Round,Endpoint,Concurrency,Requests,Failures,Time Taken (s),Req/sec,Time/Req (ms),Transfer Rate (KB/s),Median Time (ms),Max Time (ms)
+Test,Fib-Single,/fib,1,1,0,0.877,1.14,877.466,2.22,877,877
+Test,Convert-Load-1,/convert,10,100,12,18.433,5.43,1843.270,11.20,1727,2355
+Test,Convert-Load-2,/convert,10,100,18,18.518,5.40,1851.757,11.15,1741,2191
+Test,Fib-Load,/fib,10,100,11,35.574,2.81,3557.361,5.47,3414,3996
+

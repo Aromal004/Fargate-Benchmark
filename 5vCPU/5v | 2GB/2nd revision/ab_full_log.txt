@@ -1,0 +1,220 @@
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking flask-app-alb-v2-30219326.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        flask-app-alb-v2-30219326.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.559 seconds
+Complete requests:      1
+Failed requests:        0
+Total transferred:      259 bytes
+HTML transferred:       61 bytes
+Requests per second:    1.79 [#/sec] (mean)
+Time per request:       559.494 [ms] (mean)
+Time per request:       559.494 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.45 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      266  266   0.0    266     266
+Processing:   293  293   0.0    293     293
+Waiting:      293  293   0.0    293     293
+Total:        559  559   0.0    559     559
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking flask-app-alb-v2-30219326.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        flask-app-alb-v2-30219326.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.600 seconds
+Complete requests:      1
+Failed requests:        0
+Total transferred:      259 bytes
+HTML transferred:       61 bytes
+Requests per second:    1.67 [#/sec] (mean)
+Time per request:       599.542 [ms] (mean)
+Time per request:       599.542 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.42 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      277  277   0.0    277     277
+Processing:   322  322   0.0    322     322
+Waiting:      322  322   0.0    322     322
+Total:        600  600   0.0    600     600
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking flask-app-alb-v2-30219326.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        flask-app-alb-v2-30219326.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      1
+Time taken for tests:   0.673 seconds
+Complete requests:      1
+Failed requests:        0
+Total transferred:      259 bytes
+HTML transferred:       61 bytes
+Requests per second:    1.49 [#/sec] (mean)
+Time per request:       672.757 [ms] (mean)
+Time per request:       672.757 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.38 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      362  362   0.0    362     362
+Processing:   310  310   0.0    310     310
+Waiting:      310  310   0.0    310     310
+Total:        673  673   0.0    673     673
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking flask-app-alb-v2-30219326.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        flask-app-alb-v2-30219326.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   6.523 seconds
+Complete requests:      100
+Failed requests:        1
+   (Connect: 0, Receive: 0, Length: 1, Exceptions: 0)
+Total transferred:      25903 bytes
+HTML transferred:       6103 bytes
+Requests per second:    15.33 [#/sec] (mean)
+Time per request:       652.251 [ms] (mean)
+Time per request:       65.225 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.88 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      256  287  20.7    285     363
+Processing:   260  299  26.3    298     356
+Waiting:      260  298  26.5    298     356
+Total:        521  585  31.9    589     671
+
+Percentage of the requests served within a certain time (ms)
+  50%    589
+  66%    603
+  75%    613
+  80%    617
+  90%    621
+  95%    631
+  98%    641
+  99%    671
+ 100%    671 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking flask-app-alb-v2-30219326.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        flask-app-alb-v2-30219326.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   6.985 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      25900 bytes
+HTML transferred:       6100 bytes
+Requests per second:    14.32 [#/sec] (mean)
+Time per request:       698.463 [ms] (mean)
+Time per request:       69.846 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.62 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      257  310  45.4    306     525
+Processing:   261  298  25.5    289     363
+Waiting:      261  298  25.4    289     363
+Total:        531  608  54.8    592     810
+
+Percentage of the requests served within a certain time (ms)
+  50%    592
+  66%    609
+  75%    646
+  80%    656
+  90%    684
+  95%    709
+  98%    795
+  99%    810
+ 100%    810 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking flask-app-alb-v2-30219326.us-east-1.elb.amazonaws.com (be patient).....done
+
+
+Server Software:        Werkzeug/3.1.3
+Server Hostname:        flask-app-alb-v2-30219326.us-east-1.elb.amazonaws.com
+Server Port:            5000
+
+Document Path:          /fib
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   6.436 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      25900 bytes
+HTML transferred:       6100 bytes
+Requests per second:    15.54 [#/sec] (mean)
+Time per request:       643.629 [ms] (mean)
+Time per request:       64.363 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.93 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      256  289  20.8    287     343
+Processing:   259  296  24.3    290     354
+Waiting:      258  296  24.4    290     354
+Total:        517  586  32.1    586     624
+
+Percentage of the requests served within a certain time (ms)
+  50%    586
+  66%    612
+  75%    615
+  80%    616
+  90%    618
+  95%    620
+  98%    624
+  99%    624
+ 100%    624 (longest request)

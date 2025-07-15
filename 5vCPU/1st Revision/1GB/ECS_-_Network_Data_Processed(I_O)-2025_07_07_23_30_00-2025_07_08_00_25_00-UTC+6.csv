@@ -1,0 +1,17 @@
+Id,metric_alias_widget_6_0,metric_alias_widget_6_1
+StatusCode,Complete,Complete
+Messages,,
+Full label,us-east-1:ECS/ContainerInsights ClusterName:flask-app-cluster-v2 NetworkTxBytes Average 300,us-east-1:ECS/ContainerInsights ClusterName:flask-app-cluster-v2 NetworkRxBytes Average 300
+Label,NetworkTxBytes,NetworkRxBytes
+2025/07/07 23:30:00,268.4,315.2
+2025/07/07 23:35:00,258.6,310.6
+2025/07/07 23:40:00,267.2,313.4
+2025/07/07 23:45:00,267.6,312.2
+2025/07/07 23:50:00,268.8,313.4
+2025/07/07 23:55:00,510.4,525.6
+2025/07/08 00:00:00,516.6,551
+2025/07/08 00:05:00,274,338.8
+2025/07/08 00:10:00,495.6,499.4
+2025/07/08 00:15:00,259.4,310.4
+2025/07/08 00:20:00,235.6,306.4
+2025/07/08 00:25:00,180.4,295.6

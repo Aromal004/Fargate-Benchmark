@@ -1,0 +1,13 @@
+Id,metric_alias_widget_4_0
+StatusCode,Complete
+Messages,
+Full label,us-east-1:AWS/ApplicationELB LoadBalancer:app/flask-app-alb-v2/7931d6b2266bf209 TargetResponseTime Average 300
+Label,TargetResponseTime
+2025/07/07 23:30:00,0.007323
+2025/07/07 23:35:00,
+2025/07/07 23:40:00,0.002355
+2025/07/07 23:45:00,0.001843
+2025/07/07 23:50:00,0.001742
+2025/07/07 23:55:00,0.00236824
+2025/07/08 00:00:00,0.00252471
+2025/07/08 00:05:00,0.00204316

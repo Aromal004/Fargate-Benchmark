@@ -1,0 +1,2 @@
+deployment time: fib only: 2:17 min
+{"startup_time":0.001168251}

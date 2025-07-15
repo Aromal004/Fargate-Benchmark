@@ -1,0 +1,11 @@
+Benchmarking:
+5v | 1GB
+
+12:30 june 30 lasted for 1hr 
+july 3 10:30-----/fib -n 100 -c 10
+july 3 10:43 ----/fib single req -n 1 -c 1
+July 3 10:50-----/convert -n 100 -c 10 -s 60 
+July 3 11:00-----/convert -n 1 -c 1 -s 60 
+
+
+
